@@ -9,4 +9,11 @@
     #009688,
     #009688 20%,
     #d4dbd9 20% 100%);
+    padding:4vh;
+}
+main{
+    background-color: #f8f9fa;
+    margin: 0 auto;
+    height: 90vh;
+    width: 80%;
 }
