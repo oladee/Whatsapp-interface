@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    background: linear-gradient(
+    to bottom,
+    #009688,
+    #009688 20%,
+    #d4dbd9 20% 100%);
+}
