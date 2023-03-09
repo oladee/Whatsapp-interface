@@ -21,3 +21,10 @@ main{
     display: grid;
     grid-template-columns: 2fr 3fr;
 }
+.profile{
+    padding: 10px;
+}
+.profilePicture img{
+    width: 55px;
+    border-radius: 27px;
+}
