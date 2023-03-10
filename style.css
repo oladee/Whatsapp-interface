@@ -21,15 +21,24 @@ main{
     display: grid;
     grid-template-columns: 2fr 3fr;
 }
-.profile{
+.myPanel{
     padding: 10px;
+}
+.profile, .profileIcons{
     display: flex;
+}
+.profileIcons{
+    justify-content: space-around;
+}
+.profile{
     justify-content: space-between;
 }
 .profilePicture img{
     width: 55px;
     border-radius: 27px;
+
 }
 .profileIcons img{
     display: block;
+    margin-right: 15px;
 }
