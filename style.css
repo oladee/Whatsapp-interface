@@ -10,6 +10,7 @@
     #009688 20%,
     #d4dbd9 20% 100%);
     padding:5vh;
+    font-family: sans-serif;
 }
 main{
     background-color: #f8f9fa;
@@ -48,8 +49,9 @@ main{
     max-width: 25px;
 }
 div i{
+    width: ;
     position: absolute;
-    padding: 0.7em 1em 2em 1em;
+    padding: 0.8em 1em 2em 1em;
 }
 div input{
     font-size: 1vw;
@@ -59,4 +61,41 @@ div input{
 }
 .chat{
     background-color: #FFFFFF;
+    display: flex;
+    padding: 5px 10px;
+    align-items: center;
+}
+p span{
+    display: block;
+}
+.outline{
+    display: flex;
+    align-items: center;
+}
+.outline img{
+    width: 20px;
+}
+div p{
+    font-size: 12px;
+}
+.writeUp{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.phoneConnected{
+    text-align: center;
+    margin-top: 20%;
+    background: #f8f9fa;
+}
+.phoneConnected h2{
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 200;
+}
+.phoneConnected p{
+    color: #888;
+    margin-top: 1em;
+    font-size: 0.9em;
 }
