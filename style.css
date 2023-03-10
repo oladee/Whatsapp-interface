@@ -23,8 +23,13 @@ main{
 }
 .profile{
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 .profilePicture img{
     width: 55px;
     border-radius: 27px;
+}
+.profileIcons img{
+    display: block;
 }
