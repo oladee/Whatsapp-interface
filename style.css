@@ -41,6 +41,7 @@ main{
 .profileIcons img{
     display: block;
     margin-right: 15px;
+    max-width: 25px;
 }
 div i{
     position: absolute;
