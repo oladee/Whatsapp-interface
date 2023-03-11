@@ -57,6 +57,7 @@ div input{
     padding: 0.7em 13em 1em 3em;
     border-radius: 19px;
     border: none;
+    outline: none;
 }
 .chat{
     background-color: #FFFFFF;
