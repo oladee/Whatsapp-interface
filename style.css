@@ -9,6 +9,7 @@
     #009688 0% 20%,
     #d4dbd9 20% 100%);
     padding:5vh;
+    font-family: sans-serif;
 }
 main{
     background-color: #f8f9fa;
@@ -19,6 +20,10 @@ main{
 .mainView{
     display: grid;
     grid-template-columns: 2fr 4fr;
+    grid-template-rows: 90vh;
+}
+.left{
+    background-color:rgba(237,237,237,255);
 }
 .myPanel{
     padding: 10px;
@@ -40,14 +45,20 @@ main{
 .profileIcons img{
     display: block;
     margin-right: 15px;
+    max-width: 25px;
 }
 .search{
     width: 100%;
 }
 div i{
+    width: ;
     position: absolute;
+<<<<<<< HEAD
     text-align: center;
     padding: 0.5em 0.5em 0.5em 0.7em;
+=======
+    padding: 0.8em 1em 2em 1em;
+>>>>>>> f6c566cdd8077ce14cf67f8ed9ce4144f36fc324
 }
 .search input{
     text-align: center;
@@ -55,4 +66,44 @@ div i{
     padding: 0.6em 13vw 1em 3em;
     border-radius: 19px;
     border: none;
+}
+.chat{
+    background-color: #FFFFFF;
+    display: flex;
+    padding: 5px 10px;
+    align-items: center;
+}
+p span{
+    display: block;
+}
+.outline{
+    display: flex;
+    align-items: center;
+}
+.outline img{
+    width: 20px;
+}
+div p{
+    font-size: 12px;
+}
+.writeUp{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.phoneConnected{
+    text-align: center;
+    margin-top: 20%;
+    background: #f8f9fa;
+}
+.phoneConnected h2{
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 200;
+}
+.phoneConnected p{
+    color: #888;
+    margin-top: 1em;
+    font-size: 0.9em;
 }
