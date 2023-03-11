@@ -6,7 +6,8 @@
     height: 100vh;
     background: linear-gradient(
     to bottom,
-    #009688 0% 20%,
+    #009688,
+    #009688 20%,
     #d4dbd9 20% 100%);
     padding:5vh;
     font-family: sans-serif;
@@ -47,23 +48,13 @@ main{
     margin-right: 15px;
     max-width: 25px;
 }
-.search{
-    width: 100%;
-}
 div i{
-    width: ;
     position: absolute;
-<<<<<<< HEAD
-    text-align: center;
-    padding: 0.5em 0.5em 0.5em 0.7em;
-=======
     padding: 0.8em 1em 2em 1em;
->>>>>>> f6c566cdd8077ce14cf67f8ed9ce4144f36fc324
 }
-.search input{
-    text-align: center;
-    /* font-size: 1vw; */
-    padding: 0.6em 13vw 1em 3em;
+div input{
+    font-size: 1vw;
+    padding: 0.7em 13em 1em 3em;
     border-radius: 19px;
     border: none;
 }
